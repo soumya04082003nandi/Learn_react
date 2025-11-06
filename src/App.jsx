@@ -32,4 +32,19 @@ function App() {
   )
 }
 
+
+export const Test =()=>{
+  return (
+    <>
+    <div className="first">
+      <h2 className="heading">
+        Hello from soumya's broken laptop
+      </h2>
+    </div>
+
+
+    </>
+  )
+}
+
 export default App
