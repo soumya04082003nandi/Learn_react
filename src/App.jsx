@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Card from './assets/components/Card'
+import userData from './data/userData'
 
 
 
@@ -7,9 +8,11 @@ import Card from './assets/components/Card'
 
 const App = () => {
   return (
-    <div>
-      <h2>Hello</h2>
-      <Card />
+    <div className='w-full h-full flex flex-wrap p-5'>
+      {userData.map((user)=>
+      <Card user={user} key={user.id} />
+      )}
+      
       
     </div>
   )
