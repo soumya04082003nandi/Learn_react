@@ -6,7 +6,7 @@ const Card = (props) => {
 
     return (
         <>
-            <div className='p-5 mx-5 w-40 mb-10 flex flex-col items-center justify-center bg-gray-900 border-dashed rounded-md '>
+            <div className='p-5 mx-5 w-40 mb-10 flex flex-col items-center justify-center shadow-gray-200 shadow-xl hover:border-black hover:border bg-gray-300 border-dashed rounded-4xl '>
                 <div className="w-30 h-30 rounded-lg border overflow-hidden border-blue-300 mb-2">
                     <img
                         className="w-full h-full object-cover "
