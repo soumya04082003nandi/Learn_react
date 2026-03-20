@@ -1,12 +1,15 @@
 import React from 'react'
 import TopComponent from './TopComponent'
 import ButtomComponent from './ButtomComponent'
+import {CardData} from './utils/cardData'
+
+
 
 const Section1 = () => {
   return (
-    <div>
+    <div className='h-full'>
       <TopComponent/>
-      <ButtomComponent/>
+      <ButtomComponent data={CardData}/>
     </div>
   )
 }

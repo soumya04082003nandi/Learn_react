@@ -4,7 +4,7 @@ import TopRight from './TopRight'
 
 const TopComponent = () => {
   return (
-    <div className='w-screen px-12 py-10 flex justify-center  '>
+    <div className='w-screen px-12 py-10 h-60 flex justify-center  '>
       <TopLeft/>
       <TopRight/>
     </div>

@@ -1,8 +1,18 @@
 import React from 'react'
+import ProductCard from './ProductCard'
 
-const ButtomComponent = () => {
+const ButtomComponent = (props) => {
   return (
-    <div>
+    
+    <div className='w-screen h-full flex-nowrap overflow-hidden overflow-x-auto px-20 py-5 flex  gap-10   '>
+      {
+        props.data.map((elem,index)=>{
+          
+          
+          return(<ProductCard key={index} data={elem} />)
+        }
+      )}
+      
       
     </div>
   )
